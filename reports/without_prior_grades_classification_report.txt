@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+ not_at_risk       0.82      0.70      0.76        53
+     at_risk       0.53      0.69      0.60        26
+
+    accuracy                           0.70        79
+   macro avg       0.68      0.70      0.68        79
+weighted avg       0.73      0.70      0.70        79
