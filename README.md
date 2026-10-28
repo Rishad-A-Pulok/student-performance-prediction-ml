@@ -7,18 +7,6 @@ Reproducible binary classification project using the UCI Student Performance **M
 2. How does performance change when G1 and G2 grades are included?
 3. Which features most affect held-out F1 performance?
 
-## Setup
-Python 3.10+ recommended.
-
-```bash
-python -m venv .venv
-# macOS/Linux: source .venv/bin/activate
-# Windows PowerShell: .venv\\Scripts\\Activate.ps1
-pip install -r requirements.txt
-python src/train.py
-```
-
-The script downloads `student-mat.csv` from the [UCI Student Performance dataset](https://archive.ics.uci.edu/dataset/320/student+performance) on first run. Alternatively, download the original CSV manually and place it in `data/student-mat.csv`.
 
 ## Method
 - Positive label `1`: final grade G3 below 10 (0–20 scale).
